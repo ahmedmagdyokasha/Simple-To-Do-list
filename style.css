@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.to-do {
+  padding: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.tasks {
+  margin-left: 2rem;
+}
+li {
+  color: red;
+}
+li::after {
+  content: " -not completed";
+}
+.done {
+  color: green;
+}
+.done::after {
+  content: " -completed";
+}
